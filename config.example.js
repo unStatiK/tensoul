@@ -15,7 +15,7 @@ const config = {
   },
 
   login: {
-    type: 10,
+    type: 7,
     access_token: process.env.ACCESS_TOKEN,
     device: {
       hardware: 'pc',
@@ -25,9 +25,14 @@ const config = {
       platform: 'pc',
       sale_platform: 'web',
       software: 'Chrome',
+      pkg: 'web',
+      screen_height: 474,
+      screen_width: 1920
     },
     random_key: '1a5675c3-fcaf-495e-a147-320050388cd0',
+    currency_platforms: [4,9],
     reconnect: false,
+    tag: 'en'
   },
 
   forceReLoginIntervalMs: 0,

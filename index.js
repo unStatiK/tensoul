@@ -90,7 +90,7 @@ class Client {
       this._is_logged_in = false
       console.error('login triggered')
 
-      await this._mjsoul.sendAsync('heatbeat')
+      await this._mjsoul.sendAsync('oauth2Check', {type:7, access_token: config.login.access_token})
 
       const login = {
         client_version_string: this._clientVersionString,
