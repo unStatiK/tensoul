@@ -1,3 +1,6 @@
+= project status
+This fork is read-only, actual project with patches for project Pantheon(https://github.com/MahjongPantheon/pantheon) here https://github.com/unStatiK/tensoul-py-ng
+
 = tensoul
 Equim <https://github.com/Equim-chan[@Equim-chan]>
 
